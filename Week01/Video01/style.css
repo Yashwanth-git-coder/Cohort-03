@@ -103,7 +103,7 @@ body {
 }
 
 
-.bg-vi-img{
+/* .bg-vi-img{
     align-items: center;
     margin-left: 150px;
 }
@@ -114,4 +114,32 @@ body {
     max-height: 50%;
     padding: 20px;
     border-radius: 50px;
+} */
+
+.bg-vi-img {
+    position: relative;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.bg-vi-img img {
+    width: 90%;
+    /* Adjust as needed */
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.bg-vi-img video {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 82%;
+    /* Adjust as needed */
+    height: auto;
+    border: 3px solid white;
+    /* Optional */
+    border-radius: 10px;
+    /* Optional */
 }
