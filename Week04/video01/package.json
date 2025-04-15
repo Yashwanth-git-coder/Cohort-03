@@ -1,16 +1,25 @@
 {
   "name": "video01",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yashwanth",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "chalk": "^5.4.1",
+    "express": "^5.1.0",
     "nodemon": "^3.1.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashwanth-git-coder/Cohort-03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yashwanth-git-coder/Cohort-03/issues"
+  },
+  "homepage": "https://github.com/Yashwanth-git-coder/Cohort-03#readme"
 }

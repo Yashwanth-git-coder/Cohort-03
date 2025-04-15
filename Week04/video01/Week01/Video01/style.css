@@ -1,0 +1,145 @@
+body {
+    background-color: #0e0e0e;
+    color: aliceblue;
+}
+
+.navbar{
+    align-items: center;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 130px;
+    gap: 1rem;
+}
+
+.collapse{
+    font-family:sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.nav-item a{
+    color: aliceblue;
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.ads{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+.main-content{
+    display: block;
+    text-align: center;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+.hero-text h1{
+    color: rgb(172, 207, 209);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.hero-text{
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.downs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 40px;
+}
+
+.download{
+    background-color: rgb(6, 140, 202);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.copilot {
+    background-color: rgb(38, 42, 44);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.links{
+    margin: 15px;
+
+}
+
+
+/* .bg-vi-img{
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.bg-vi-img img{
+    max-width: 90%;
+    max-height: 50%;
+    padding: 20px;
+    border-radius: 50px;
+} */
+
+.bg-vi-img {
+    position: relative;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.bg-vi-img img {
+    width: 90%;
+    /* Adjust as needed */
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.bg-vi-img video {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 82%;
+    /* Adjust as needed */
+    height: auto;
+    border: 3px solid white;
+    /* Optional */
+    border-radius: 10px;
+    /* Optional */
+}
